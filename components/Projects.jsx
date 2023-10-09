@@ -24,14 +24,12 @@ const Projects = () => {
             backgroundImg={nextjsPhoto}
             projectUrl='/photo'
             tech='Next JS'
-
           />
           <ProjectItem
-            title='Boolgram'
+            title='Boolgram (Instagram Clone)'
             backgroundImg={boolgram}
             projectUrl='/boolgram'
             tech='Vue JS'
-
           />
         </div>
       </div>
