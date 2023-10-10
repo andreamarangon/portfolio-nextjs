@@ -14,16 +14,16 @@ const Projects = () => {
         <h2 className='py-4'>Dai un'occhiata ad alcuni dei miei lavori qui</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
+            title='Photo Website'
+            backgroundImg={nextjsPhoto}
+            projectUrl='/photo'
+            tech='Next JS'
+          />
+          <ProjectItem
             title='Weather App'
             backgroundImg={reactWeatherApp}
             projectUrl='/weather'
             tech='React JS'
-          />
-          <ProjectItem
-            title='Photo Site'
-            backgroundImg={nextjsPhoto}
-            projectUrl='/photo'
-            tech='Next JS'
           />
           <ProjectItem
             title='Boolgram (Instagram Clone)'
