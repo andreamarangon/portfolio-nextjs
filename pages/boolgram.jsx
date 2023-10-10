@@ -28,7 +28,7 @@ const boolgram = () => {
           <h2>Descrizione</h2>
           <p>
             Utilizzanto Vue.JS ho creato questa replica grafica del famoso social network Instagram.
-            I profili e i posts solo stati estrapolati da API attraverso l'utilizzo di Axios.
+            I profili e i posts sono stati estrapolati da API attraverso l'utilizzo di Axios.
           </p>
           <a
             href='https://boolgram-am.netlify.app'

@@ -14,7 +14,7 @@ const Contact = () => {
         <p className='text-xl tracking-widest uppercase text-[#9D1D38]'>
           Contatti
         </p>
-        <h2 className='py-4'>Mettiti In Contatto</h2>
+        <h2 className='py-4'>Mettiamoci In Contatto</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>

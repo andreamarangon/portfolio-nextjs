@@ -29,7 +29,7 @@ const photo = () => {
           <p>
             Questa sito web è stata creato utilizzando Next Js incorporando il componente Image che Next JS
             ci fornisce, nonchè il sistema di routing interno. Ciò significa che tutte le immagini che utilizzeremo
-            sfrutteranno il lazy loading e verrà creato uno slider di immagini che carica in modo lento tutte le immagini,
+            sfrutteranno il lazy loading e verrà creato uno slider che carica in modo lento tutte le immagini,
             il che si traduce in tempi di costruzione più rapidi e maggiore SEO per il sito web.
             Poiché Next JS offre un sistema di routing integrato e il componente Link significa che non dovremo utilizzare
             react-router-dom come faremmo normalmente quando gestiamo il routing nelle applicazioni React JS.

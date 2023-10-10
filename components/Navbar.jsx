@@ -13,7 +13,6 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState('#ecf0f3')
   const [linkColor, setLinkColor] = useState('#1f2937')
 
-  const [position, setPosition] = useState('fixed')
   const router = useRouter();
 
   useEffect(() => {
@@ -91,7 +90,7 @@ const Navbar = () => {
         }>
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Image src='/../assets/am-logo.png' width='45' height='45' alt='/' />
+              <Image src={NavLogo} width='45' height='45' alt='/' />
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                 <AiOutlineClose />
               </div>
@@ -100,7 +99,7 @@ const Navbar = () => {
               <p className='w-[85%] md:w-[90%] py-4'>Lavoriamo insieme</p>
             </div>
           </div>
-          <div className='py-4 flex flex-col'>
+          <div className='py-4 flex flex-col h-[calc(100%-141px)] justify-between'>
             <ul className='uppercase'>
               <Link href='/#home'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Home</li>
@@ -118,7 +117,7 @@ const Navbar = () => {
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contatti</li>
               </Link>
             </ul>
-            <div className='pt-40'>
+            <div>
               <p className='uppercase tracking-widest text-[#9D1D38]'>Let's Connect</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
@@ -139,11 +138,15 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/#contact'>
+                <a
+                  href='mailto:andreamarangon84@outlook.it'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                </Link>
+                </a>
                 <a
                   href='/cv-andrea-marangon.pdf'
                   target='_blank'

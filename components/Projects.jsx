@@ -26,7 +26,7 @@ const Projects = () => {
             tech='React JS'
           />
           <ProjectItem
-            title='Boolgram (Instagram Clone)'
+            title='Boolgram'
             backgroundImg={boolgram}
             projectUrl='/boolgram'
             tech='Vue JS'

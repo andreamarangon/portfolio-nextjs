@@ -23,7 +23,7 @@ const Skills = () => {
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
+                <h3 className='text-sm md:text-base'>HTML</h3>
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@ const Skills = () => {
                 <Image src={Css} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>CSS</h3>
+                <h3 className='text-sm md:text-base'>CSS</h3>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Skills = () => {
                 <Image src={Javascript} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>JavaScript</h3>
+                <h3 className='text-sm md:text-base'>JavaScript</h3>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Skills = () => {
                 <Image src={ReactImg} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>React</h3>
+                <h3 className='text-sm md:text-base'>React</h3>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ const Skills = () => {
                 <Image src={Tailwind} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Tailwind</h3>
+                <h3 className='text-sm md:text-base'>Tailwind</h3>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Skills = () => {
                 <Image src={Github} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Github</h3>
+                <h3 className='text-sm md:text-base'>Github</h3>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Skills = () => {
                 <Image src={NextJS} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Next</h3>
+                <h3 className='text-sm md:text-base'>Next</h3>
               </div>
             </div>
           </div>
