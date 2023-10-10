@@ -54,15 +54,24 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
-                  <Link href='/resume'>
+                  <a
+                    href='mailto:andreamarangon84@outlook.it'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <AiOutlineMail />
+                    </div>
+                  </a>
+                  <a
+                    href='/cv-andrea-marangon.pdf'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <BsFillPersonLinesFill />
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -133,7 +142,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='flex justify-center py-12'>
-          <Link href='/'>
+          <Link href='/#home'>
             <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <HiOutlineChevronDoubleUp
                 className='text-[#9D1D38]'
