@@ -1,5 +1,6 @@
 import React from 'react'
 import reactWeatherApp from '../public/assets/projects/reactWeatherApp.png'
+import spotify from '../public/assets/projects/spotify.png'
 import nextjsPhoto from '../public/assets/projects/nextjsPhoto.png'
 import boolgram from '../public/assets/projects/boolgram.png'
 import ProjectItem from './ProjectItem'
@@ -13,6 +14,12 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>Dai un'occhiata ad alcuni dei miei lavori qui</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+          <ProjectItem
+            title='Spotify Clone'
+            backgroundImg={spotify}
+            projectUrl='/spotify'
+            tech='React JS'
+          />
           <ProjectItem
             title='Photo Website'
             backgroundImg={nextjsPhoto}

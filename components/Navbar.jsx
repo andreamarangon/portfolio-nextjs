@@ -19,7 +19,8 @@ const Navbar = () => {
     if (
       router.asPath === '/photo' ||
       router.asPath === '/weather' ||
-      router.asPath === '/boolgram'
+      router.asPath === '/boolgram' ||
+      router.asPath === '/spotify'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');

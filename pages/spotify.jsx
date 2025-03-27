@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import photoImg from '../public/assets/projects/nextjsPhoto.png'
+import spotifyImg from '../public/assets/projects/spotify.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
-const photo = () => {
+const spotify = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -13,12 +13,12 @@ const photo = () => {
           className='absolute z-1 object-cover'
           fill
           priority
-          src={photoImg}
+          src={spotifyImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Photo Website</h2>
-          <h3>Next.js / Tailwind CSS</h3>
+          <h2 className='py-2'>Spotify Clone</h2>
+          <h3>React.js / Tailwind CSS</h3>
         </div>
       </div>
 
@@ -27,22 +27,18 @@ const photo = () => {
           <p>Progetto</p>
           <h2>Descrizione</h2>
           <p>
-            Questo sito web è stato creato utilizzando Next.js incorporando il componente Image che Next.js
-            ci fornisce, nonchè il sistema di routing interno. Ciò significa che tutte le foto che utilizzeremo
-            sfrutteranno il lazy loading e verrà creato uno slider che carica tutte le immagini,
-            il che si traduce in tempi di costruzione più rapidi e maggiore SEO per il sito web.
-            Next.js offre un sistema di routing integrato e il componente Link, questo significa che non dovremo utilizzare
-            react-router-dom come faremmo normalmente quando gestiamo il routing nelle applicazioni React.js.
+            Utilizzando React.js, ho sviluppato un clone della versione web di Spotify che consente di riprodurre brani audio online.
+            L'interfaccia utente è stata realizzata con Tailwind CSS, mentre la gestione del routing è affidata a react-router-dom.
           </p>
           <a
-            href='https://nextjs-photo.netlify.app/'
+            href='https://react-tailwindcss-spotify-clone.netlify.app'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </a>
           <a
-            href='https://github.com/andreamarangon/nextjs-photo'
+            href='https://github.com/andreamarangon/spotify-clone'
             target='_blank'
             rel='noreferrer'
           >
@@ -54,7 +50,7 @@ const photo = () => {
             <p className='text-center font-bold pb-2'>Tecnologie</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Next.js
+                <RiRadioButtonFill className='pr-1' /> React.js
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Tailwind CSS
@@ -73,4 +69,4 @@ const photo = () => {
   )
 }
 
-export default photo
+export default spotify

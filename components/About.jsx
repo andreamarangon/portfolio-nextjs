@@ -18,10 +18,10 @@ const About = () => {
             che in breve tempo è diventata la mia passione.
           </p>
           <p className='py-2 text-gray-600'>
-            Trovo entusiasmante poter dar vita a nuovi progetti, mettendo in pratica le mie competenze
-            e acquisendone di nuove. Mi ritengo una persona meticolosa, attenta al dettaglio e in grado
-            di focalizzarsi efficacemente sugli obiettivi da raggiungere, inoltre la mia esperienza nel mondo
-            del commercio mi ha formato dal punto di vista dell'attenzione al cliente e alle sue esigenze.
+            Trovo entusiasmante dare vita a nuovi progetti, applicando le mie competenze e ampliando continuamente le mie conoscenze.
+            Sono una persona meticolosa, attenta ai dettagli e focalizzata sugli obiettivi.
+            Inoltre, la mia esperienza nel settore del commercio mi ha permesso di sviluppare una forte attenzione al cliente e alle sue esigenze,
+            un aspetto che ritengo fondamentale anche nella realizzazione di soluzioni digitali efficaci.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

@@ -17,7 +17,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>un Front End Web Developer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            Ho 2 anni di esperienza nello sviluppo di software. Attualmente mi piace lavorare su siti e applicazioni web utilizzando tecnologie come React e Tailwind.
+            Ho 2 anni di esperienza nello sviluppo web. Attualmente mi piace lavorare su siti e applicazioni web utilizzando tecnologie come React e Tailwind.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

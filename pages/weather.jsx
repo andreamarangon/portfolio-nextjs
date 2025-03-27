@@ -18,7 +18,7 @@ const weather = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Weather App</h2>
-          <h3>React JS / Css</h3>
+          <h3>React.js / CSS</h3>
         </div>
       </div>
 
@@ -27,7 +27,7 @@ const weather = () => {
           <p>Progetto</p>
           <h2>Descrizione</h2>
           <p>
-            Questa app è stata creata utilizzando React Js. Gli utenti possono cercare una località
+            Questa app è stata creata utilizzando React.js. Gli utenti possono cercare una località
             e visualizzane le informazioni meteo attuali. Tutto ciò è reso possibile dall'utilizzo dall'API
             di Openweathermap.
           </p>
@@ -51,10 +51,10 @@ const weather = () => {
             <p className='text-center font-bold pb-2'>Tecnologie</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React.JS
+                <RiRadioButtonFill className='pr-1' /> React.js
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Css
+                <RiRadioButtonFill className='pr-1' /> CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript

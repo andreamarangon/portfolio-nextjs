@@ -18,7 +18,7 @@ const boolgram = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Boolgram</h2>
-          <h3>Vue JS / Bootstrap</h3>
+          <h3>Vue.js / Bootstrap</h3>
         </div>
       </div>
 
@@ -27,7 +27,7 @@ const boolgram = () => {
           <p>Progetto</p>
           <h2>Descrizione</h2>
           <p>
-            Utilizzanto Vue.JS ho creato questa replica grafica del famoso social network Instagram.
+            Utilizzanto Vue.js ho creato questa replica grafica del famoso social network Instagram.
             I profili e i posts sono stati estrapolati da API attraverso l'utilizzo di Axios.
           </p>
           <a
@@ -50,7 +50,7 @@ const boolgram = () => {
             <p className='text-center font-bold pb-2'>Tecnologie</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Vue.JS
+                <RiRadioButtonFill className='pr-1' /> Vue.js
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Bootstrap
