@@ -3,6 +3,7 @@ import reactWeatherApp from '../public/assets/projects/reactWeatherApp.png'
 import spotify from '../public/assets/projects/spotify.png'
 import nextjsPhoto from '../public/assets/projects/nextjsPhoto.png'
 import boolgram from '../public/assets/projects/boolgram.png'
+import shoppingCart from '../public/assets/projects/reactShoppingCart.png'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -18,6 +19,12 @@ const Projects = () => {
             title='Spotify Clone'
             backgroundImg={spotify}
             projectUrl='/spotify'
+            tech='React JS'
+          />
+          <ProjectItem
+            title='Shopping Cart'
+            backgroundImg={shoppingCart}
+            projectUrl='/shoppingCart'
             tech='React JS'
           />
           <ProjectItem

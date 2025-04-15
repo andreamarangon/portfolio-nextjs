@@ -20,6 +20,7 @@ const Navbar = () => {
       router.asPath === '/photo' ||
       router.asPath === '/weather' ||
       router.asPath === '/boolgram' ||
+      router.asPath === '/shoppingCart' ||
       router.asPath === '/spotify'
     ) {
       setNavBg('transparent');
