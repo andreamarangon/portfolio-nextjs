@@ -30,7 +30,7 @@ const Contact = () => {
                 <h2 className='py-2'>Andrea Marangon</h2>
                 <p>Front-End Developer</p>
                 <p className='py-4'>
-                  Sono disponibile per posizioni full-time.
+                  Disponibile per opportunità full-time — da remoto o in presenza.
                 </p>
               </div>
               <div>

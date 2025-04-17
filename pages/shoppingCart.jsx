@@ -18,7 +18,7 @@ const shoppingCart = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Shopping Cart</h2>
-          <h3>React.js / Tailwind CSS</h3>
+          <h3>React.js / Redux Toolkit / Tailwind CSS</h3>
         </div>
       </div>
 
@@ -55,13 +55,13 @@ const shoppingCart = () => {
                 <RiRadioButtonFill className='pr-1' /> React.js
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Redux Toolkit
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Tailwind CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Redux Toolkit
               </p>
             </div>
           </div>
