@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { AiOutlineMail } from 'react-icons/ai'
+//import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
@@ -35,7 +35,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className='uppercase pt-8'>Connettiti con me</p>
-                <div className='flex items-center justify-between py-4'>
+                <div className='flex items-center justify-around py-4'>
                   <a
                     href='https://www.linkedin.com/in/marangon-andrea'
                     target='_blank'
@@ -54,7 +54,7 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-                  <a
+                  {/*                   <a
                     href='mailto:andreamarangon84@outlook.it'
                     target='_blank'
                     rel='noreferrer'
@@ -63,6 +63,7 @@ const Contact = () => {
                       <AiOutlineMail />
                     </div>
                   </a>
+ */}
                   <a
                     href='/cv-andrea-marangon.pdf'
                     target='_blank'

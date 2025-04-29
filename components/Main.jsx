@@ -1,6 +1,5 @@
-import Link from 'next/link';
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
+//import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
@@ -39,7 +38,7 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <a
+            {/*             <a
               href='mailto:andreamarangon84@outlook.it'
               target='_blank'
               rel='noreferrer'
@@ -48,7 +47,7 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </a>
-
+ */}
             <a
               href='/cv-andrea-marangon.pdf'
               target='_blank'

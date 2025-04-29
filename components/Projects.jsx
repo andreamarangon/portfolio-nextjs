@@ -4,6 +4,7 @@ import spotify from '../public/assets/projects/spotify.png'
 import nextjsPhoto from '../public/assets/projects/nextjsPhoto.png'
 import boolgram from '../public/assets/projects/boolgram.png'
 import shoppingCart from '../public/assets/projects/reactShoppingCart.png'
+import quiz from '../public/assets/projects/quiz.png'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -25,6 +26,12 @@ const Projects = () => {
             title='Shopping Cart'
             backgroundImg={shoppingCart}
             projectUrl='/shoppingCart'
+            tech='React JS'
+          />
+          <ProjectItem
+            title='Quiz App'
+            backgroundImg={quiz}
+            projectUrl='/quiz'
             tech='React JS'
           />
           <ProjectItem
