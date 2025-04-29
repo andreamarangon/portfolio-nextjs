@@ -122,7 +122,7 @@ const Navbar = () => {
             </ul>
             <div>
               <p className='uppercase tracking-widest text-[#9D1D38]'>Let's Connect</p>
-              <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+              <div className='flex items-center justify-around my-4 w-full sm:w-[80%]'>
                 <a
                   href='https://www.linkedin.com/in/marangon-andrea'
                   target='_blank'
@@ -141,7 +141,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <a
+                {/*                 <a
                   href='mailto:andreamarangon84@outlook.it'
                   target='_blank'
                   rel='noreferrer'
@@ -150,7 +150,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </a>
-                <a
+ */}                <a
                   href='/cv-andrea-marangon.pdf'
                   target='_blank'
                   rel='noreferrer'

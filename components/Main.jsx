@@ -19,7 +19,7 @@ const Main = () => {
             Creo interfacce moderne, responsive e user-friendly utilizzando tecnologie come React.js e Tailwind CSS.
             Mi piace trasformare idee in esperienze web curate nei dettagli e performanti.
           </p>
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+          <div className='flex items-center justify-around max-w-[330px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/marangon-andrea'
               target='_blank'
