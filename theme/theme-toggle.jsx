@@ -18,7 +18,7 @@ const ThemeToggle = () => {
           </path>
         </svg>
  */}
-        <LuMonitorSmartphone className="w-4 h-4.5 m-1" />
+        <LuMonitorSmartphone className="w-5 h-5 m-1" />
       </span>
       <span onClick={() => setTheme("light")} className="flex justify-center items-center rounded-full cursor-pointer data-checked:bg-white data-checked:ring data-checked:inset-ring data-checked:ring-gray-950/10 data-checked:inset-ring-white/10 sm:p-0 dark:data-checked:bg-gray-700 dark:data-checked:text-white dark:data-checked:ring-transparent" aria-label="Light theme" id="headlessui-radio-«Ram5elb»" role="radio" aria-checked={theme === "light" ? "true" : "false"} data-headlessui-state={theme === "light" ? "checked" : ""} data-checked={theme === "light" ? "" : null}>
         {/*         <svg viewBox="0 0 28 28" fill="none">
@@ -38,10 +38,10 @@ const ThemeToggle = () => {
           </path>
         </svg>
  */}
-        <LuSun className="w-4.5 h-4.5 m-1" />
+        <LuSun className="w-5 h-5 m-1" />
       </span>
       <span onClick={() => setTheme("dark")} className="flex justify-center items-center rounded-full cursor-pointer data-checked:bg-white data-checked:ring data-checked:inset-ring data-checked:ring-gray-950/10 data-checked:inset-ring-white/10 sm:p-0 dark:data-checked:bg-gray-500 dark:data-checked:text-white dark:data-checked:ring-transparent" aria-label="Dark theme" id="headlessui-radio-«Rem5elb»" role="radio" aria-checked={theme === "dark" ? "true" : "false"} data-headlessui-state={theme === "dark" ? "checked" : ""} data-checked={theme === "dark" ? "" : null}>
-        <LuMoon className="w-4.5 h-4.5 m-1" />
+        <LuMoon className="w-5 h-5 m-1" />
         {/*         <svg viewBox="0 0 28 28" fill="none">
           <path d="M10.5 9.99914C10.5 14.1413 13.8579 17.4991 18 17.4991C19.0332 17.4991 20.0176 17.2902 20.9132 16.9123C19.7761 19.6075 17.109 21.4991 14 21.4991C9.85786 21.4991 6.5 18.1413 6.5 13.9991C6.5 10.8902 8.39167 8.22304 11.0868 7.08594C10.7089 7.98159 10.5 8.96597 10.5 9.99914Z" stroke="currentColor" strokeLinejoin="round">
           </path>
