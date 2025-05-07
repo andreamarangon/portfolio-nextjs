@@ -22,6 +22,9 @@ layer(base);
   }
 }
 
+/*hover effect on mobile with touch */
+@custom-variant mobile-hover (&:hover);
+
 @layer utilities {
   html {
     scroll-behavior: smooth;
