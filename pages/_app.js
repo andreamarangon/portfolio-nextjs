@@ -1,11 +1,20 @@
 import Navbar from '@/components/Navbar'
 import '@/styles/globals.css'
+import ThemeProvider from "../theme/theme-provider";
+
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Navbar />
-      <Component {...pageProps} />
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem
+        disableTransitionOnChange
+      >
+        <Navbar />
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   )
 }

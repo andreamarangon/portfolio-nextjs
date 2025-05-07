@@ -8,14 +8,14 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
+          <p className='uppercase text-sm tracking-widest text-gray-600 dark:text-gray-400'>
             LAVORIAMO INSIEME
           </p>
-          <h1 className='py-4 text-gray-700'>
+          <h1 className='py-4 text-gray-700 dark:text-white'>
             Ciao, sono <span className='text-[#9D1D38]'> Andrea</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>Front-End Web Developer</h1>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
+          <h1 className='py-2 text-gray-700 dark:text-white'>Front-End Web Developer</h1>
+          <p className='py-4 text-gray-600 dark:text-gray-400 sm:max-w-[70%] m-auto'>
             Creo interfacce moderne, responsive e user-friendly utilizzando tecnologie come React.js e Tailwind CSS.
             Mi piace trasformare idee in esperienze web curate nei dettagli e performanti.
           </p>
@@ -25,7 +25,7 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaLinkedinIn />
               </div>
             </a>
@@ -34,7 +34,7 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaGithub />
               </div>
             </a>
@@ -43,7 +43,7 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
             </a>
@@ -53,7 +53,7 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>
             </a>

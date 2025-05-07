@@ -6,12 +6,13 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import NavLogo from '../public/assets/am-logo.png'
 import { useRouter } from 'next/router'
+import ThemeToggle from "../theme/theme-toggle";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const [shadow, setShadow] = useState(false)
-  const [navBg, setNavBg] = useState('#ecf0f3')
-  const [linkColor, setLinkColor] = useState('#1f2937')
+  const [navBg, setNavBg] = useState('navBgColor')
+  const [linkColor, setLinkColor] = useState('navLinkColor')
 
   const router = useRouter();
 
@@ -25,10 +26,10 @@ const Navbar = () => {
       router.asPath === '/spotify'
     ) {
       setNavBg('transparent');
-      setLinkColor('#ecf0f3');
+      setLinkColor('text-white');
     } else {
-      setNavBg('#ecf0f3');
-      setLinkColor('#1f2937');
+      setNavBg('navBgColor');
+      setLinkColor('navLinkColor');
     }
   }, [router]);
 
@@ -50,18 +51,18 @@ const Navbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: `${navBg}` }}
+      //style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-20 z-[100]'
+          ? `${navBg} fixed w-full h-20 shadow-xl z-100 ease-in-out duration-300`
+          : `${navBg} fixed w-full h-20 z-100`
       }>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/#home'>
           <Image src={NavLogo} alt="/" width="60" height="60" className='cursor-pointer' />
         </Link>
-        <div style={{ color: `${linkColor}` }}>
-          <ul className='hidden md:flex'>
+        <div className={linkColor}>
+          <ul className='hidden md:flex items-center'>
             <Link href="/#home">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -75,8 +76,9 @@ const Navbar = () => {
               <li className="ml-10 text-sm uppercase hover:border-b">Progetti</li>
             </Link>
             <Link href='/#contact'>
-              <li className="ml-10 text-sm uppercase hover:border-b">Contatti</li>
+              <li className="mx-10 text-sm uppercase hover:border-b">Contatti</li>
             </Link>
+            <ThemeToggle />
           </ul>
           <div onClick={handleNav} className='md:hidden cursor-pointer'>
             <AiOutlineMenu size={25} />
@@ -88,13 +90,13 @@ const Navbar = () => {
       <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
         <div className={
           nav
-            ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+            ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-gray-800 p-10 ease-in duration-500'
             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
         }>
           <div>
             <div className='flex w-full items-center justify-between'>
               <Image src={NavLogo} width='45' height='45' alt='/' />
-              <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
+              <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer'>
                 <AiOutlineClose />
               </div>
             </div>
@@ -121,14 +123,14 @@ const Navbar = () => {
               </Link>
             </ul>
             <div>
-              <p className='uppercase tracking-widest text-[#9D1D38]'>Let's Connect</p>
+              <p className='uppercase tracking-widest text-[#9D1D38]'>Contatti</p>
               <div className='flex items-center justify-around my-4 w-full sm:w-[80%]'>
                 <a
                   href='https://www.linkedin.com/in/marangon-andrea'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -137,7 +139,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaGithub />
                   </div>
                 </a>
@@ -155,11 +157,13 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-900 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <BsFillPersonLinesFill />
                   </div>
                 </a>
-
+              </div>
+              <div className='flex justify-center pt-4'>
+                <ThemeToggle />
               </div>
             </div>
           </div>

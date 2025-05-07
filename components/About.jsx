@@ -12,22 +12,22 @@ const About = () => {
             Info
           </p>
           <h2 className='py-4'>Chi sono</h2>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-gray-600 dark:text-gray-400'>
             La mia passione per la tecnologia mi ha portato a specializzarmi nello sviluppo web front-end, un ambito che ho scelto per l’equilibrio perfetto tra creatività, logica e impatto concreto. Utilizzo principalmente React.js per creare interfacce moderne, responsive e focalizzate sull’esperienza utente.
           </p>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-gray-600 dark:text-gray-400'>
             Mi piace dar vita a progetti curati nei minimi dettagli, esplorando costantemente nuove tecnologie e approcci per migliorarmi. Ho un forte senso pratico, sono meticoloso nel codice e ho una mentalità orientata al problem solving.
           </p>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-gray-600 dark:text-gray-400'>
             La mia esperienza nel commercio mi ha insegnato l'importanza dell’ascolto del cliente, della comunicazione e della capacità di adattarmi rapidamente a contesti diversi — soft skill che oggi porto anche nel mio lavoro come developer.
           </p>
           <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
+            <p className='py-2 text-gray-600 dark:text-gray-400 underline cursor-pointer'>
               Dai un'occhiata ad alcuni dei miei lavori qui.
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-900 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />
         </div>
       </div>
