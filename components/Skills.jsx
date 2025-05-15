@@ -70,7 +70,7 @@ const Skills = () => {
           <div className='p-4 sm:p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Github} width='64px' height='64px' alt='/' />
+                <Image className='dark:invert' src={Github} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3 className='text-sm md:text-base'>Github</h3>
@@ -80,7 +80,7 @@ const Skills = () => {
           <div className='p-4 sm:p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={NextJS} width='64px' height='64px' alt='/' />
+                <Image className='dark:invert' src={NextJS} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3 className='text-sm md:text-base'>Next</h3>
